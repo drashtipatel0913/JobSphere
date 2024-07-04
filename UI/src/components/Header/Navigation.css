@@ -1,0 +1,18 @@
+#navigation {
+    font-size: large;
+    margin-top: 25px;
+}
+
+
+#navigation ul li a {
+    padding: 4px 15px 4px 15px !important;
+}
+
+#navigation .active {
+    color: #2a41e8 !important;
+}
+
+#navigation .active::after {
+    color: #2a41e8 !important;
+    background: rgba(42, 65, 232, 0.13);
+}

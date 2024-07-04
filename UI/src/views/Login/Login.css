@@ -1,0 +1,33 @@
+.input-text::placeholder {
+    font-weight: normal;
+}
+
+.input-text {
+    font-weight: normal;
+    flex: 1;
+    margin-bottom: 0 !important;
+}
+
+.input-with-icon-left {
+    margin-bottom: 16px;
+}
+
+.star {
+    color: red;
+    margin: 0 10px;
+}
+
+.text-danger {
+    color: red;
+    font-size: smaller;
+}
+
+.error {
+    border-color: red !important;
+}
+
+.input-with-icon-left span {
+    width: 100%;
+    font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+}

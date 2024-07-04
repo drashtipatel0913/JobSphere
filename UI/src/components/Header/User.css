@@ -1,0 +1,19 @@
+.user-avatar::after {
+    content: unset;
+}
+
+.user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    margin-bottom: 0.25rem;
+}

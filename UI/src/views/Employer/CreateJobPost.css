@@ -1,0 +1,17 @@
+select {
+    padding: 0 20px !important;
+}
+
+.tox-statusbar {
+    display: none !important;
+}
+
+.with-border {
+    font-weight: normal;
+    flex: 1;
+    margin-bottom: 0 !important;
+}
+
+.required-star {
+    color: red !important;
+}

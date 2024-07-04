@@ -1,0 +1,250 @@
+.cognify-banner img {
+    width: 100vh;
+}
+
+.banner-content {
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+
+.left-content-banner h1 {
+    color: white !important;
+}
+
+.about-banner {
+    height: 70vh;
+    background-color: #166acf;
+    color: #fff;
+}
+
+.left-content-banner {
+    width: 80vh;
+}
+
+.left-content-banner>* {
+    padding-bottom: 40px;
+}
+
+.banner-line {
+    border-left: 6px solid #fff;
+    height: 300px;
+}
+
+.banner-img img {
+    border-radius: 50%;
+    height: 50vh;
+    width: 50vh;
+}
+
+.about-vision h1::after {
+    color: #0063db;
+    content: " Vision";
+}
+
+.about-vision h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.about-vision p {
+    font-size: x-large;
+    padding: 10px;
+}
+
+
+
+.aboutus h1:first-child::after {
+    color: #0063db;
+    content: " we?";
+}
+
+.aboutus h1:nth-of-type(2)::after {
+    color: #0063db;
+    content: " JobSphere?";
+}
+
+.aboutus {
+    width: 50%;
+}
+
+.aboutus-img img {
+    height: 50vh;
+    width: 50vh;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px 2px #888888;
+}
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+
+    .cognify-banner {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .cognify-banner img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .banner-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+
+    .about-banner {
+        padding: 1rem;
+        height: 70vh;
+        flex-direction: column-reverse;
+    }
+
+    .banner-line {
+        display: none;
+    }
+
+    .left-content-banner {
+        width: 100%;
+    }
+
+
+
+    .about-banner>* {
+        padding: 1rem;
+    }
+
+    .banner-img img {
+        height: 30vh;
+        width: 30vh;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        padding: 2rem !important;
+    }
+
+    .aboutus {
+        display: grid;
+        width: 100%;
+        place-items: center;
+        padding: 1rem;
+    }
+
+    .aboutus-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutus-img img {
+        height: 40vh;
+        width: 40vh;
+    }
+
+    .about-vision p {
+        font-size: 1rem;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+    .logos img {
+        padding: 15px;
+        max-width: 300px;
+        max-height: 90px;
+    }
+
+    .home-courses {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .course-tile {
+        flex: 1;
+        min-width: 12.5rem;
+    }
+
+    .cognify-success-story {
+        height: 60vh;
+    }
+
+    footer .row:first-child {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    footer .row:first-child div:first-child {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    footer .row:first-child div:not(:first-child) {
+        width: 50%;
+        flex: 1;
+    }
+
+    footer .row:first-child div:last-child {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .course {
+        padding: 1rem;
+    }
+
+    .course-showmorebtn {
+        height: 5vh;
+        width: 50vh;
+    }
+
+    .course-text {
+        padding-top: 1rem;
+    }
+
+    .about-banner {
+        padding: 1rem;
+        height: 50vh;
+    }
+
+    .about-yt iframe {
+        height: 39vh;
+    }
+
+    .about-banner>* {
+        padding: 1rem;
+    }
+
+    .banner-img img {
+        height: 30vh;
+        width: 30vh;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .aboutus {
+        display: grid;
+        width: 100%;
+        place-items: center;
+        padding: 1rem;
+    }
+
+    .aboutus-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutus-img img {
+        height: 40vh;
+        width: 40vh;
+    }
+}

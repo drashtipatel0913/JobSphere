@@ -1,0 +1,14 @@
+.comp-icon img::after {
+    font-family: 'Material Icons' !important;
+    content: '\e0af' !important;
+}
+
+@media (max-width: 768px) {
+    .company-details {
+        flex-direction: column;
+    }
+
+    .company-details .col-auto:first-child {
+        align-self: center;
+    }
+}

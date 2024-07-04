@@ -1,0 +1,32 @@
+@media (max-width: 1100px) {
+
+    /* Adjust the max-width as needed */
+    .header-widget {
+        border-right: 1px solid #e0e0e0 !important;
+        border-left: 1px solid #e0e0e0 !important;
+    }
+
+    .header-notifications i {
+        color: #666;
+
+    }
+
+    #header {
+        border-bottom: 1px solid #666 !important;
+        height: 82px !important;
+    }
+
+    .mmenu-trigger {
+        background-color: #eee !important;
+    }
+}
+
+.employer .background-image-container {
+    background-image: url(../../emp_home_banner.webp) !important;
+    background-position: top center !important;
+}
+
+.employer.intro-banner {
+    padding: 27.62vh 0 !important;
+    width: auto !important;
+}

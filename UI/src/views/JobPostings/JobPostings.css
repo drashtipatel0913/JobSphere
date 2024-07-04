@@ -1,0 +1,18 @@
+.small-footer-copyrights {
+    text-wrap: nowrap;
+}
+
+.small-footer {
+    padding: 25px !important;
+    position: absolute;
+    bottom: 0;
+}
+
+.sidebar-form {
+    background-color: #fafafa;
+    
+}
+.full-page-content-inner{
+    position: relative;
+    min-height: calc(100vh - 82px);
+}

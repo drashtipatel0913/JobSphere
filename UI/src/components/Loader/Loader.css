@@ -1,0 +1,30 @@
+.loader {
+    position: fixed;
+    /* Ensures loader stays centered even when content scrolls */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    /* Use viewport width for full-screen coverage */
+    height: 100vh;
+    /* Use viewport height for full-screen coverage */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.loader img {
+    animation: bounce 0.5s infinite alternate;
+    -webkit-animation: bounce 0.5s infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}

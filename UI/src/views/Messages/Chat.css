@@ -1,0 +1,31 @@
+.message-text {
+    position: relative;
+}
+
+.message-time {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: x-small !important;
+    color: #666;
+    margin: 0;
+}
+
+.me .message-time {
+    color: #e6e6e6
+}
+
+.message-text {
+    word-break: break-word;
+}
+
+.messages-container .messages-container-inner {
+    height: 89vh !important;
+}
+
+@media (max-width: 768px) {
+    .messages-container-inner {
+        display: flex !important;
+    }
+    
+}

@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none !important;
+}
+:root {
+  --header-height: 82px;
+  /* Define the header height here */
+}
+
+/* Calculate header height */
+#header-container {
+  height: var(--header-height);
+  /* Add your other header styling */
+}
+
+/* Set wrapper height (window height - header height) */
+.full-page-content-container,
+.dashboard-content-container,
+.dashboard-sidebar-inner,
+.dashboard-container,
+.full-page-container {
+  height: calc(100vh - var(--header-height));
+}
+
+.dashboard-content-inner {
+  min-height: calc(100vh - var(--header-height));
+}
+
+/* Set scrollbar for sidebar if necessary */
+.full-page-sidebar-inner,
+.dashboard-sidebar-inner {
+  overflow-y: auto;
+  /* Enable scrollbar */
+  max-height: calc(100vh - var(--header-height));
+  /* Limit height to window height - header height */
+  overflow-x: hidden;
+  padding-bottom: unset !important;
+}
+
+/* Set scrollbar for sidebar if necessary */
+.full-page-sidebar-inner .simplebar-content,
+.dashboard-sidebar-inner .simplebar-content{
+  overflow-x: hidden;
+  padding-bottom: unset !important;
+}

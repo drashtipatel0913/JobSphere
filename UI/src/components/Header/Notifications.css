@@ -1,0 +1,12 @@
+.notification-text span {
+    color: #2a41e8;
+}
+
+.notification-icon {
+    background-color: unset !important;
+    color: unset !important;
+}
+
+.notification-text p:first-child {
+    font-weight: bold;
+}

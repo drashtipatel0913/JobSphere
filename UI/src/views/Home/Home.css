@@ -1,0 +1,30 @@
+.user .background-image-container{
+    background-image: url(../../user_home_banner.webp) !important;
+    background-position: top center !important;
+}
+.user.intro-banner {
+    padding: 30.45vh 0 !important;
+    width: auto !important;
+}
+@media (max-width: 1100px) {
+
+    /* Adjust the max-width as needed */
+    .header-widget {
+        border-right: 1px solid #e0e0e0 !important;
+        border-left: 1px solid #e0e0e0 !important;
+    }
+
+    .header-notifications i {
+        color: #666;
+
+    }
+
+    #header {
+        border-bottom: 1px solid #666 !important;
+        height: 82px !important;
+    }
+
+    .mmenu-trigger {
+        background-color: #eee !important;
+    }
+}
